@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Horní menu*/
+ul li{
+    display: inline;
+    font-size: 40px;
+    padding: 10px;
+}
+nav{
+   text-align: right;
+   background-color: black;
+}
+a, a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/*Hlavička*/
+header{
+    background-color:green ;
+    height: 200px;
+    position: relative;
+ width: 100%;
+}
+/*Prostředek*/
+main{
+    height: 700px;
+}
+/*Dolejšek*/
+footer{
+    text-align: right;
+    font-size: 30px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding-right: 30px;
+}
+/*Vlny*/
+div{
+    position: relative;
+}
+.custom-shape-divider-top-1733231179 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1733231179 svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 237px;
+}
+
+.custom-shape-divider-top-1733231179 .shape-fill {
+    fill: #FFFFFF;
+}
